@@ -1,0 +1,61 @@
+.page-form {
+    font-size: 30px;
+    margin: 10px;
+    background-color: black;
+}
+
+.menu-main-icon-circle {
+    width: 50px;
+    height: 150px;
+    position: relative;
+    /* margin: 20px; */
+    margin: auto;
+    margin-top: 100px;
+}
+
+.menu-icon-circle {
+    width: 3%;
+    height: 100%;
+    background-color: rgb(120, 0, 0);
+    position: absolute;
+}
+
+.menu-icon-left {
+    background-color: red;
+    animation: circularMoveL 2s reverse infinite cubic-bezier(0.2, 0.1, 0.5, 0.3);
+}
+
+.menu-icon-right {
+    background-color: rgb(143, 60, 60);
+    animation: circularMoveR 2s reverse infinite cubic-bezier(0.2, 0.1, 0.5, 0.3);
+}
+
+.menu-icon-top {
+    background-color: rgb(158, 11, 35);
+    animation: circularMoveT 2s reverse infinite cubic-bezier(0.2, 0.1, 0.5, 0.3);
+}
+
+.menu-icon-bottom {
+    background-color: rgb(150, 79, 102);
+    animation: circularMoveB 2s reverse infinite cubic-bezier(0.2, 0.1, 0.5, 0.3);
+}
+
+@keyframes circularMoveL {
+    from { transform: rotate(0deg) translateX(0px) translateY(-30px);}
+    to   { transform: rotate(2880deg) translateX(-30px) translateY(0px);}
+}
+
+@keyframes circularMoveR {
+    from { transform: rotate(0deg) translateX(0px) translateY(30px);}
+    to   { transform: rotate(2880deg) translateX(30px) translateY(0px);}
+}
+
+@keyframes circularMoveT {
+    from { transform: rotate(0deg) translateY(0px) translateX(-30px);}
+    to   { transform: rotate(2880deg) translateY(-30px) translateX(0px);}
+}
+
+@keyframes circularMoveB {
+    from { transform: rotate(0deg) translateY(0px) translateX(30px);}
+    to   { transform: rotate(2880deg) translateY(30px) translateX(0px);}
+}

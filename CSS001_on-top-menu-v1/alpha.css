@@ -1,0 +1,29 @@
+.alp-h-menu {
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+}
+
+.alp-menu-item {
+    font-size: 25px;
+    color: #aaddee;
+    background-color: black;
+    text-decoration: none;
+    border: none;
+    display: block;
+    padding: 8px 16px;
+    float: left;
+}
+
+.alp-fixed-pos {
+    position: fixed;
+}
+
+.alp-menu-item:hover {
+    color: black;
+    background-color:#bbddff;
+}
+
+.page-form {
+    margin: 0px;
+}

@@ -1,0 +1,15 @@
+.page-form {
+    margin: 0px;
+}
+
+.on-top {
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.temp-data {
+    font-size: 50px;
+    margin: 30px;
+}
